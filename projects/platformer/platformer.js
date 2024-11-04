@@ -28,7 +28,7 @@ $(function () {
      * Comment the function call out to remove the grid
      */
 
-    // drawGrid();
+     drawGrid();
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -38,8 +38,8 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-
-
+createPlatform(0, 650, 100, 25);
+createPlatform(0, 430, 100, 25);
 
     
     // TODO 2
